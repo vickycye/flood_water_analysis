@@ -1,5 +1,4 @@
 # Welcome!
-Once the internship begins, I'll start contributing to this repository.
 
 ### Setup Instructions
 If you wish, clone the GitHub repository into a remote server (atmos) via VS Code.

@@ -32,7 +32,6 @@ Calculate changes in the frequency of flood warnings at major river gauges in th
 
 
 ---
-Might move this section later
 
 ## Setup Instructions
 If you wish, clone the GitHub repository into a remote server (atmos) via VS Code.
@@ -46,6 +45,24 @@ If you wish, clone the GitHub repository into a remote server (atmos) via VS Cod
 cd repo-name`
 4. Install dependencies `pip install -r requirements.txt`
 45 Now you can work with files remotely just like locally!
+
+## Setting up conda environment on atmos server
+If you're checking `python --version` or `python3 --version` and it shows `python 2.7.2` or `python 3.7.3` (or anything of the sorts), you need to create a conda virtual environment if you want to install certain packages.
+First, try running `conda --version`. It should say command not found. 
+**Install `miniconda3` on Linux**
+1. Download the miniconda3 installer
+   - Run the following command: `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
+2. Run the installer
+   - Run the following command: `bash Miniconda3-latest-Linux-x86_64.sh`. Press enter to start the installation, select `yes` if prompted to.
+   - When asked for the install location, choose something like `/home/disk/cig-home/[yourusername]/miniconda3`
+3. Initialize conda
+   - Run the following command: `conda init` (this modifies the shell configuration `.bashrc`, `.zshrc`, etc. to enable conda automatically on login)
+   - Reload the shell by running `source ~/.bashrc`
+   - Run `conda --version` again to see if it's successfully installed.
+4. (Optional) Clean things up a little
+   - You can also run `rm Miniconda3-latest-Linux-x86_64.sh` to remove the installer but it's completely optional and I didn't do it.
+
+Now it should work and you can run `conda install --yes --file requirements.txt` to install all necessary dependencies. 
 
 ---
 Public repository for data analysis @ UW's EarthLab and Climate Impacts Group. 

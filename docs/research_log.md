@@ -9,3 +9,9 @@ Available data:
 
 Set up `requirements.txt` and overall repo structure.
 Set up conda virtual environment as well.
+
+Stage-Discharge Relationship slides: ![Stage-Discharge Realtionship](https://ca.water.usgs.gov/FERC/presentations/Rating_shape-extensions.pdf)
+Found USGS API for efficient data collection: ![API website](https://api.waterdata.usgs.gov/)
+Good visual on trends of water flow: ![Rating curve example](https://www.researchgate.net/profile/Ida-Westerberg-2/publication/281460381/figure/fig8/AS:280667301662788@1443927708023/Uncertainties-in-rating-curve-modeling-of-the-stage-discharge-relationship-with-examples.png)
+
+### June 30th, 2025 - July 4th, 2025

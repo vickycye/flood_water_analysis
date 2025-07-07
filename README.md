@@ -65,6 +65,36 @@ First, try running `conda --version`. It should say command not found.
 Now it should work and you can run `conda install --yes --file requirements.txt` to install all necessary dependencies. 
 
 ---
+## Github Structure
+
+```bash
+flood_water_analysis/
+├── data/
+│   ├── raw_data/                         # data retrieved directly from websites, etc.
+│   ├── processed_data/                   # cleaned data (e.g., specific WA site codes)
+│   ├── external/
+│   ├── site_codes_all.txt                # from GAGES-II dataset (little human influence geographical location)
+│   ├── site_codes_ref.txt                # same as above but washington state sites
+│   └── scraped/
+│       └── WA_sites.json                 # all WA gauge sites, contains decommissioned ones as well
+├── docs/                  
+│   ├── images/                           # misc. image storage
+│   ├── pilot_location_analysis.md        # contains very specific information for one site
+│   └── research_log.md                   # contains findings and summaries
+├── notebooks/
+│   ├── data_vix.py                       # script to gather reference gauges in WA state to make site_codes_ref.txt
+│   ├── flood_data_SNZM7.json             # pilot location detailed gauge and site information
+│   ├── initial_data_exploration.ipynb    # jupyter notebook w/ pilot analysis
+│   └── WA_site_codes.py                  # yet another script to scrape WA site locations
+├── src/
+├── venv/
+├── LICENSE
+├── README.md                             # this doc
+└── requirements.txt                      # installs necessary dependencies for running all files in this repo.
+```
+
+
+---
 Public repository for data analysis @ UW's EarthLab and Climate Impacts Group. 
 Duration: 9-week summer research internship
 Contact: vickyye@uw.edu

@@ -27,3 +27,6 @@ First trial scrape worked, now trying to scrape for all sites, so I created the 
 
 ### July 7th - July 11th
 There are a total of 120 reference gauges in Washington states that I extracted from the GAGES-II dataset.
+Data location: ![GAGES-II](https://www.sciencebase.gov/catalog/item/631405bbd34e36012efa304a), ![USGS Summary](https://data.usgs.gov/datacatalog/data/USGS:1d623649-ccb9-4238-8add-3174bc322fdf)
+
+USGS Rating Curves: ![Base](https://waterdata.usgs.gov/nwisweb/get_ratings?site_no=12150800&file_type=base), ![exsa](https://waterdata.usgs.gov/nwisweb/get_ratings?site_no=12150800&file_type=exsa). Replace "12150800" with another site name to find other info.

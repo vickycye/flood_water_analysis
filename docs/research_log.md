@@ -25,3 +25,5 @@ Apparently, it's not static on the website, so I have to go under the "Network" 
 
 First trial scrape worked, now trying to scrape for all sites, so I created the `WA_site_codes.ipynb` file to scrape those as well from ![USGS waterdata website](https://waterdata.usgs.gov/state/Washington/).
 
+### July 7th - July 11th
+There are a total of 120 reference gauges in Washington states that I extracted from the GAGES-II dataset.

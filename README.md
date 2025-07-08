@@ -83,6 +83,8 @@ flood_water_analysis/
 │   └── research_log.md                   # contains findings and summaries
 ├── notebooks/
 │   ├── data_vix.py                       # script to gather reference gauges in WA state to make site_codes_ref.txt
+│   ├── flood_levels_all_sites.csv        # spreadsheet for information on all scraped washingon gauge sites
+│   ├── flood_levels_all_sites_valid.csv  # same as above but only the ones that have at least one flood warning threshold 
 │   ├── flood_data_SNZM7.json             # pilot location detailed gauge and site information
 │   ├── initial_data_exploration.ipynb    # jupyter notebook w/ pilot analysis
 │   └── WA_site_codes.py                  # yet another script to scrape WA site locations

@@ -26,12 +26,12 @@
     },
     "status": {
         "observed": {
-            "primary": 16.25,
+            "primary": 15.69,
             "primaryUnit": "ft",
-            "secondary": 7.68,
+            "secondary": 7.71,
             "secondaryUnit": "kcfs",
             "floodCategory": "no_flooding",
-            "validTime": "2025-07-02T20:45:00Z"
+            "validTime": "2025-07-07T21:45:00Z"
         },
         "forecast": {
             "primary": -999,
@@ -67,7 +67,7 @@
             "minorCS": "0.56",
             "moderateCS": "0.55",
             "majorCS": "0.08",
-            "producedTime": "2025-06-24T20:05:03Z",
+            "producedTime": "2025-06-24T22:05:05Z",
             "interval": "JAS"
         },
         "crests": {

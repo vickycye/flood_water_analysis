@@ -30,3 +30,7 @@ There are a total of 120 reference gauges in Washington states that I extracted 
 Data location: ![GAGES-II](https://www.sciencebase.gov/catalog/item/631405bbd34e36012efa304a), ![USGS Summary](https://data.usgs.gov/datacatalog/data/USGS:1d623649-ccb9-4238-8add-3174bc322fdf)
 
 USGS Rating Curves: ![Base](https://waterdata.usgs.gov/nwisweb/get_ratings?site_no=12150800&file_type=base), ![exsa](https://waterdata.usgs.gov/nwisweb/get_ratings?site_no=12150800&file_type=exsa). Replace "12150800" with another site name to find other info.
+
+Scraped flood levels for all sites and exported to a .csv. 
+The following stations are operated seasonally:
+* 12020800, 12020525, etc.
